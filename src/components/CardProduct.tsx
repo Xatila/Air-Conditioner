@@ -16,7 +16,7 @@ const CardProduct = () => {
         <Heading size="lg"> Mitsubishi Electric 920S</Heading>
       </CardHeader>
       <CardBody>
-        <Image className="grow" src="/images/test.png" />
+        <Image className="grow" src="/Air-Conditioner/images/test.png" />
       </CardBody>
       <CardFooter>
         <Details />

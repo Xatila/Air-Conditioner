@@ -1,6 +1,7 @@
 {
   "name": "climatik",
   "version": "0.1.0",
+  "homepage": "https://Xatila.github.io/Air-Conditioner",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
@@ -24,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-slick": "^0.23.10"
+    "@types/react-slick": "^0.23.10",
+    "gh-pages": "^6.0.0"
   }
 }

@@ -3,7 +3,7 @@ import ImageSlider from "./ImageSlider";
 const HomePageImage = () => {
   return (
     <Box
-      backgroundImage={"./images/back.jpg"}
+      backgroundImage={"/Air-Conditioner/images/back.jpg"}
       display={"flex"}
       justifyContent="center"
       padding={10}

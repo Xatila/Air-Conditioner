@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./ImageSlider.css";
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = ["/images/1.jpg", "/images/2.jpg", "/images/3.jpg"];
+  const images = ["/Air-Conditioner/images/1.jpg", "/Air-Conditioner/images/2.jpg", "/Air-Conditioner/images/3.jpg"];
 
   useEffect(() => {
     const interval = setInterval(() => {
