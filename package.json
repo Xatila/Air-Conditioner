@@ -1,8 +1,8 @@
 {
-  "name": "climatik",
+  "name": "air-conditioner",
   "version": "0.1.0",
-  "homepage": "https://Xatila.github.io/Air-Conditioner",
-  "private": true,
+  "homepage": "https://Xatila.github.io/air-conditioner",
+  "private": false,
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^3.11.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "typescript": "^4.9.5",
@@ -48,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-scroll": "^1.8.7",
     "@types/react-slick": "^0.23.10",
     "gh-pages": "^6.0.0"
   }

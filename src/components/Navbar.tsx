@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { Box, Flex, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
+import {
+  Link,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 import { FaAnchor, FaAngleDoubleDown } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,8 +37,15 @@ const Navbar = () => {
         marginLeft={{ base: 300, md: 0 }}
         paddingTop={{ base: 10, md: 0 }}
       >
-        <Link href="#About" fontSize="lg" mr={4}>
-          Home
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Кои сме ние
         </Link>
         <Text fontSize="lg" mr={4}>
           About
