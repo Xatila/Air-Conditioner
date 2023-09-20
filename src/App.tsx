@@ -15,11 +15,15 @@ import "./App.css";
 import ProductsContainer from "./components/ProductsContainer";
 import About from "./components/About";
 import HomePageText from "./components/HomePageText";
-export const App = () => (
+const images = ["/images/1.jpg","/images/2.jpg"]
+export const App = () => 
+  <>
   <ChakraProvider theme={theme}>
     <Navbar />
     <HomePageImage></HomePageImage>
-    <ProductsContainer/>
-    <About/>
-  </ChakraProvider>
-);
+    <ProductsContainer />
+    <About />
+    
+  </ChakraProvider>;
+  </>
+;

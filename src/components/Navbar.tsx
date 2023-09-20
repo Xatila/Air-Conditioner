@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Box, Flex, Text } from "@chakra-ui/react";
-import { FaAngleDoubleDown } from "react-icons/fa";
+import { Box, Flex, Link, Text } from "@chakra-ui/react";
+import { FaAnchor, FaAngleDoubleDown } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,9 +31,9 @@ const Navbar = () => {
         marginLeft={{ base: 300, md: 0 }}
         paddingTop={{ base: 10, md: 0 }}
       >
-        <Text fontSize="lg" mr={4}>
+        <Link href="#About" fontSize="lg" mr={4}>
           Home
-        </Text>
+        </Link>
         <Text fontSize="lg" mr={4}>
           About
         </Text>

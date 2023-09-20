@@ -14,7 +14,7 @@ const About = () => {
   return (
     <Tabs padding={30} mt={"50px"}>
       <TabList justifyContent={"space-around"}>
-        <Tab>Кои сме ние</Tab>
+        <section id="#About"><Tab>Кои сме ние</Tab></section>
         <Tab>Какво правим</Tab>
         <Tab>Свържете се с нас</Tab>
       </TabList>
