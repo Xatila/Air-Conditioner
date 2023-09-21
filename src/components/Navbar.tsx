@@ -19,6 +19,7 @@ const Navbar = () => {
       align="center"
       justify="space-between"
       wrap="wrap"
+      width="100%"
       padding="1rem"
       bg="background: rgb(2,0,36);
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.38139005602240894) 36%, rgba(0,155,255,0.6951155462184874) 86%);"
