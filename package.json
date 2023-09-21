@@ -1,9 +1,10 @@
 {
   "name": "air-conditioner",
   "version": "0.1.0",
-  "homepage": "https://Xatila.github.io/air-conditioner",
+  "homepage": "https://xatila.github.io/air-conditioner",
   "private": false,
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -50,7 +51,6 @@
   },
   "devDependencies": {
     "@types/react-scroll": "^1.8.7",
-    "@types/react-slick": "^0.23.10",
-    "gh-pages": "^6.0.0"
+    "@types/react-slick": "^0.23.10"
   }
 }
